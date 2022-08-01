@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/tvCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="25px"
+        android:text="사번 : "
+        android:textSize="16pt"
+        android:textColor="#FF0000"
+        />
+
+    <EditText
+        android:id="@+id/etCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tvCode"
+        android:inputType="number"
+        android:gravity="right"
+        android:textSize="16pt"
+        android:textColor="#0000FF"
+        />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvCode"
+        android:paddingTop="35px"
+        android:text="이름 : "
+        android:textSize="16pt"
+        android:textColor="#FF0000"
+        />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etCode"
+        android:layout_toRightOf="@+id/tvName"
+        android:inputType="text"
+        android:gravity="right"
+        android:textSize="16pt"
+        android:textColor="#0000FF"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/etName"
+        android:text=" 확인 "
+        android:textSize="16pt"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/etName"
+        android:text=" 취소 "
+        android:textSize="16pt"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="5dp" 
+        app:cardUseCompatPadding="true">
+        <!--CornerRadius : 모서리 깎기-->
+        <!--cardElevation : 부유 효과-->
+        
+        <LinearLayout
+            android:id="@+id/parentLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:padding="5dp"
+                android:src="@drawable/singer1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp">
+
+                <TextView
+                    android:id="@+id/tvName"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="이름"
+                    android:textSize="30sp" />
+                <!--dp는 레이아웃의 크기를 지정할 때, sp는 텍스트의 크기를 지정할 때 사용한다.-->
+                <!--화면에서 언제나 똑같은 크기의 글자를 보여주고자할때는 dp를 텍스트에 사용해도 된다.-->
+
+                <TextView
+                    android:id="@+id/tvPhoneNum"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="전화번호"
+                    android:textSize="25sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

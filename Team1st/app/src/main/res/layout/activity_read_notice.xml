@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="모바일프로그래밍 팀플 같이 하실 분"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/user"
+            android:text=" 등록: 3명 / 전체: 4명"
+            android:textSize="15dp"
+            android:layout_marginBottom="10dp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/clock"
+            android:text=" 모집기간: 2022.06.13까지 (D-7)"
+            android:textSize="15dp"
+            android:layout_marginBottom="10dp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/date"
+            android:text=" 진행기간: 2022.06.13 ~ 2022.06.20"
+            android:textSize="15dp"
+            android:layout_marginBottom="10dp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/location"
+            android:text=" 장소: 성결대학교"
+            android:textSize="15dp"
+            android:layout_marginBottom="10dp">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:text="안드로이드 앱 개발하는 과제입니다. 하단의 상세설명 참고해주세요!"
+            android:layout_marginBottom="10dp">
+        </TextView>
+        <Button
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:text="신청하기">
+        </Button>
+    </LinearLayout>
+
+</androidx.appcompat.widget.Toolbar>

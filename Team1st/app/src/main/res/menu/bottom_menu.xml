@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/feed"
+        android:enabled="true"
+        android:icon="@drawable/feed"
+        android:title="피드"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/schedule"
+        android:enabled="true"
+        android:icon="@drawable/schedule"
+        android:title="일정"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/file"
+        android:enabled="true"
+        android:icon="@drawable/file"
+        android:title="파일"
+        app:showAsAction="always"/>
+</menu>

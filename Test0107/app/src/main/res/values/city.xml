@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="hobby">
+        <item>축구하기</item>
+        <item>등산하기</item>
+        <item>운전하기</item>
+        <item>산책하기</item>
+        <item>공부하기</item>
+    </string-array>
+
+    <string-array name="my">
+        <item>라켓소년단</item>
+        <item>고창읍성</item>
+        <item>낙안읍성</item>
+        <item>제주도</item>
+        <item>안면도</item>
+        <item>강화도</item>
+        <item>독도</item>
+        <item>울릉도</item>
+        <item>선유도</item>
+    </string-array>
+</resources>
